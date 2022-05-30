@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "keywords": [],
+  "author": "Pranit Harekar pranitharekar@pm.me",
   "scripts": {
-    "build": "tailwindcss -i ./input.css -o ./css/main.css",
-    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+    "build": "tailwindcss -i ./input.css -o ./public/css/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./public/css/main.css --watch"
   },
   "devDependencies": {
     "tailwindcss": "^3.0.24"
